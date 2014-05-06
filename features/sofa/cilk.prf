@@ -1,0 +1,5 @@
+
+contains(DEFINES, SOFA_HAVE_CILK) {
+	LIBS *= -lcilk
+}
+
